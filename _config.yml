@@ -1,0 +1,19 @@
+title: "> /dev/null 2>&1"
+email: aj@48k.io
+description: >
+  48k, Dtrace, Hadoop, Mesos, Spark, Erlang, JVM, node.js, PHP, Python, porting software, Ansible, Puppet, Capistrano,
+  Habitat, Poudriere, Packer, terraform, FreeBSD, illumos, OmniOS, Unix, scaling databases, AWS, Google Cloud,
+  OpenStack, Rackspace, ZFS, bhyve KVM, Xen
+baseurl: ""
+url: ""
+twitter_username: x90T
+github_username: wakeful
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
