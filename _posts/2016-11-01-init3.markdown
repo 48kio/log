@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "init3"
+date:   2016-11-01 12:25:35 +0000
+---
+
+{% highlight shell %}
+$ jekyll new .
+$ git init
+$ git add .
+$ git status
+$ git commit -m "init"
+{% endhighlight %}
+
