@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Missing root password - chroot to the rescue!"
+title:  "Missing root password? chroot to the rescue!"
 date:   2016-11-04 20:12:00 +0000
 ---
 
