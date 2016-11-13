@@ -8,6 +8,7 @@ baseurl: ""
 url: ""
 twitter_username: x90T
 github_username: wakeful
+google_analytics: "UA-87114721-2"
 
 # Build settings
 markdown: kramdown
