@@ -7,7 +7,7 @@ date:   2016-12-08 12:00:00 +0000
 When you system is configured to use DHCP.
 
 {% highlight shell %}
-$ sysrc -n ifconfig_re0 
+$ sysrc -n ifconfig_re0
 DHCP
 {% endhighlight %}
 
@@ -18,7 +18,7 @@ However one would prefer to use [Public DNS Servers](https://duckduckgo.com/?q=P
 According to [dhclient-script](https://man.freebsd.org/dhclient-script(8)#OPERATION) man page, we can change the behavior by overeating the **add_new_resolv_conf** function in */etc/dhclient-enter-hooks* file.
 
 {% highlight shell %}
-$ cat << EOF > /etc/dhclient-enter-hooks 
+$ cat << EOF > /etc/dhclient-enter-hooks
 add_new_resolv_conf() {
        return 0
 }
