@@ -10,6 +10,7 @@ social_sites:
   twitter: x90T
   github: wakeful
 google_analytics: "UA-87114721-2"
+excerpt_separator: ""
 
 # Build settings
 markdown: kramdown
