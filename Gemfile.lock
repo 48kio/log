@@ -52,7 +52,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.5.0)
-  jekyll-feed (~> 0.6)
+  jekyll-feed (= 0.9.3)
   minima (= 2.2.0)
 
 RUBY VERSION
