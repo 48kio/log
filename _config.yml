@@ -6,6 +6,8 @@ description: >
   OpenStack, Rackspace, ZFS, bhyve KVM, Xen
 baseurl: ""
 url: "http://log.48k.io"
+twitter_username: x90T
+github_username:  wakeful
 social_sites:
   twitter: x90T
   github: wakeful
