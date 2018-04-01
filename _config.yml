@@ -6,14 +6,15 @@ description: >
   OpenStack, Rackspace, ZFS, bhyve KVM, Xen
 baseurl: ""
 url: "http://log.48k.io"
-twitter_username: x90T
-github_username: wakeful
+social_sites:
+  twitter: x90T
+  github: wakeful
 google_analytics: "UA-87114721-2"
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
